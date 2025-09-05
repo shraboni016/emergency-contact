@@ -4,7 +4,7 @@ let copyCount = 0;
 
 function increaseHeart(el) {
   heartCount++;
-  document.getElementById("heartCount").innerText = `❤️ ${heartCount}`;
+  document.getElementById("heartCount").innerText = `${heartCount}`;
   el.innerText = "❤️";
 }
 
@@ -12,7 +12,7 @@ function copyNumber(number) {
   navigator.clipboard.writeText(number);
   copyCount++;
   alert(`Copied number: ${number}`);
-  document.getElementById("copyCount").innerText = `📋 ${copyCount} Copy`;
+  document.getElementById("copyCount").innerText = `${copyCount} Copy`;
 }
 
 function makeCall(service, number) {
@@ -22,7 +22,7 @@ function makeCall(service, number) {
   }
   alert(`Calling ${service} at ${number}`);
   coinCount -= 20;
-  document.getElementById("coinCount").innerText = `💰 ${coinCount}`;
+  document.getElementById("coinCount").innerText = `${coinCount}`;
 
   // Add to history with time
   const time = new Date().toLocaleTimeString();
