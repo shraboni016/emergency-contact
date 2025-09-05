@@ -37,9 +37,10 @@
   </section>
 
     <!-- Main Section -->
-    <main class="main-section">
+  <main class="main-section">
     <!-- Card Section -->
     <div class="card-section">
+      <!-- Example Card -->
       <div class="card">
         <span class="heart" onclick="increaseHeart(this)">🤍</span>
         <h3>National Emergency Number</h3>
@@ -51,7 +52,8 @@
           <button onclick="makeCall('National Emergency Number','999')">📞 Call</button>
         </div>
       </div>
-       <div class="card">
+
+      <div class="card">
         <span class="heart" onclick="increaseHeart(this)">🤍</span>
         <h3>Police Helpline Number</h3>
         <p class="sub">Police</p>
@@ -74,9 +76,82 @@
           <button onclick="makeCall('Fire Service Number','999')">📞 Call</button>
         </div>
       </div>
+
+      <div class="card">
+        <span class="heart" onclick="increaseHeart(this)">🤍</span>
+        <h3>Ambulance Service</h3>
+        <p class="sub">Ambulance</p>
+        <p class="number">1994-999999</p>
+        <span class="badge">Health</span>
+        <div class="buttons">
+          <button onclick="copyNumber('1994-999999')">📋 Copy</button>
+          <button onclick="makeCall('Ambulance Service','1994-999999')">📞 Call</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <span class="heart" onclick="increaseHeart(this)">🤍</span>
+        <h3>Women & Child Helpline</h3>
+        <p class="sub">Women & Child</p>
+        <p class="number">109</p>
+        <span class="badge">Help</span>
+        <div class="buttons">
+          <button onclick="copyNumber('109')">📋 Copy</button>
+          <button onclick="makeCall('Women & Child Helpline','109')">📞 Call</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <span class="heart" onclick="increaseHeart(this)">🤍</span>
+        <h3>Anti-Corruption Helpline</h3>
+        <p class="sub">Anti-Corruption</p>
+        <p class="number">106</p>
+        <span class="badge">Govt.</span>
+        <div class="buttons">
+          <button onclick="copyNumber('106')">📋 Copy</button>
+          <button onclick="makeCall('Anti-Corruption Helpline','106')">📞 Call</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <span class="heart" onclick="increaseHeart(this)">🤍</span>
+        <h3>Electricity Helpline</h3>
+        <p class="sub">Electricity Outage</p>
+        <p class="number">16216</p>
+        <span class="badge">Electricity</span>
+        <div class="buttons">
+          <button onclick="copyNumber('16216')">📋 Copy</button>
+          <button onclick="makeCall('Electricity Helpline','16216')">📞 Call</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <span class="heart" onclick="increaseHeart(this)">🤍</span>
+        <h3>Brac Helpline</h3>
+        <p class="sub">Brac</p>
+        <p class="number">16445</p>
+        <span class="badge">NGO</span>
+        <div class="buttons">
+          <button onclick="copyNumber('16445')">📋 Copy</button>
+          <button onclick="makeCall('Brac Helpline','16445')">📞 Call</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <span class="heart" onclick="increaseHeart(this)">🤍</span>
+        <h3>Bangladesh Railway Helpline</h3>
+        <p class="sub">Railway</p>
+        <p class="number">163</p>
+        <span class="badge">Travel</span>
+        <div class="buttons">
+          <button onclick="copyNumber('163')">📋 Copy</button>
+          <button onclick="makeCall('Bangladesh Railway Helpline','163')">📞 Call</button>
+        </div>
+      </div>
     </div>
 
-     <aside class="history">
+    <!-- History Section -->
+    <aside class="history">
       <div class="history-header">
         <h3>📜 Call History</h3>
         <button class="clear-btn" onclick="clearHistory()">Clear</button>

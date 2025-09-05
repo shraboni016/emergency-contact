@@ -81,6 +81,14 @@ body {
   margin-bottom: 10px;
 }
 
+/* Main Section */
+.main-section {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
 /* Card Section */
 .card-section {
   display: grid;
@@ -183,3 +191,4 @@ button:last-child {
   border-bottom: 1px solid #ddd;
   font-size: 14px;
 }
+
