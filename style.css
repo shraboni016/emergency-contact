@@ -201,7 +201,11 @@ button:last-child {
   border-bottom: 1px solid #ddd;
   font-size: 14px;
 }
-
+@media(max-width: 992px) {
+  .card-section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 @media(max-width: 600px) {
   .main-section {
     grid-template-columns: 1fr;
