@@ -111,13 +111,13 @@ body {
 }
 
 .service-logo {
-  width: 24px;   /* adjust size as you like */
+  width: 24px; 
   height: 24px;
 }
 
 .heart {
   cursor: pointer;
-  font-size: 18px; /* makes it visually balanced */
+  font-size: 18px;
 }
 
 
@@ -202,3 +202,11 @@ button:last-child {
   font-size: 14px;
 }
 
+@media(max-width: 600px) {
+  .main-section {
+    grid-template-columns: 1fr;
+  }
+  .card-section {
+    grid-template-columns: 1fr;
+  }
+}
