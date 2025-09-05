@@ -36,6 +36,55 @@
     <p>Government Emergency Services at Your Fingertip – A Project by  Government of the People’s Republic of Bangladesh</p>
   </section>
 
+    <!-- Main Section -->
+    <main class="main-section">
+    <!-- Card Section -->
+    <div class="card-section">
+      <div class="card">
+        <span class="heart" onclick="increaseHeart(this)">🤍</span>
+        <h3>National Emergency Number</h3>
+        <p class="sub">National Emergency</p>
+        <p class="number">999</p>
+        <span class="badge">All</span>
+        <div class="buttons">
+          <button onclick="copyNumber('999')">📋 Copy</button>
+          <button onclick="makeCall('National Emergency Number','999')">📞 Call</button>
+        </div>
+      </div>
+       <div class="card">
+        <span class="heart" onclick="increaseHeart(this)">🤍</span>
+        <h3>Police Helpline Number</h3>
+        <p class="sub">Police</p>
+        <p class="number">999</p>
+        <span class="badge">Police</span>
+        <div class="buttons">
+          <button onclick="copyNumber('999')">📋 Copy</button>
+          <button onclick="makeCall('Police Helpline Number','999')">📞 Call</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <span class="heart" onclick="increaseHeart(this)">🤍</span>
+        <h3>Fire Service Number</h3>
+        <p class="sub">Fire Service</p>
+        <p class="number">999</p>
+        <span class="badge">Fire</span>
+        <div class="buttons">
+          <button onclick="copyNumber('999')">📋 Copy</button>
+          <button onclick="makeCall('Fire Service Number','999')">📞 Call</button>
+        </div>
+      </div>
+    </div>
+
+     <aside class="history">
+      <div class="history-header">
+        <h3>📜 Call History</h3>
+        <button class="clear-btn" onclick="clearHistory()">Clear</button>
+      </div>
+      <ul id="historyList"></ul>
+    </aside>
+  </main>
+
   <script src="script.js"></script>
 </body>
 </html>
